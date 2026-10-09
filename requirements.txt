@@ -1,0 +1,8 @@
+# Reuse the existing PyTorch environment; do not reinstall torch here.
+# Exact successfully tested versions will be recorded in requirements-lock.txt.
+numpy==1.23.5
+opencv-python==4.11.0.86
+ultralytics==8.4.173
+huggingface_hub==1.8.0
+PySide6==6.9.3
+

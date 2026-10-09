@@ -1,0 +1,29 @@
+# Ultralytics YOLO26 training hyperparameters for SAINet
+# This file mirrors the configuration used for SAINet v11.1.
+# When updating the model, only modify this file if the training setup actually changes.
+
+task: 'detect'
+model: 'yolo26m'
+classes:
+  0: smoke
+  1: fire
+epochs: 200
+verbose: true
+batch: 32
+imgsz: 640
+patience: 0
+close_mosaic: 0
+save: true
+save_period: 1
+device: 0
+workers: 8
+cos_lr: true
+lr0: 0.0001
+lrf: 1e-05
+warmup_epochs: 3
+warmup_bias_lr: 1e-06
+optimizer: 'Adam'
+seed: 42
+deterministic: true
+cache: 'disk'
+amp: true

@@ -1,0 +1,1201 @@
+{
+  "schema_version": 1,
+  "manifest_sha256": "2b91dc804e2b7002352b89984b4b854293f185da06e62cd0f4bbd6966caa0e0a",
+  "coordinate_basis": "original image pixels; xyxy within [0,width] x [0,height]",
+  "images": [
+    {
+      "image": "images/posVideo3.872-f00040.png",
+      "image_sha256": "769968d8b6dcb27c019d682dee24faac45773e7f148911584c2d2d5c7a72ed0c",
+      "width": 480,
+      "height": 272,
+      "source": "fire_videos.1406/pos/posVideo3.872.avi",
+      "source_sha256": "0b0371fb637bee82384024b4ebdf716a1faaeb088ce6496ec5c35244e8c48936",
+      "frame_index": 40,
+      "timestamp_s": 1.3346666666666667,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            222.73,
+            16.51,
+            344.13,
+            129.27
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            70.35,
+            5.33,
+            219.68,
+            114.03
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            49.02,
+            110.48,
+            202.41,
+            145.52
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            4.83,
+            38.35,
+            123.17,
+            116.57
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            236.95,
+            38.86,
+            351.24,
+            115.05
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/posVideo3.872-f00100.png",
+      "image_sha256": "1462fa0ccb2572d2b7455649dc0e26943b4a6344955825920a55f8eb8d7a6ab7",
+      "width": 480,
+      "height": 272,
+      "source": "fire_videos.1406/pos/posVideo3.872.avi",
+      "source_sha256": "0b0371fb637bee82384024b4ebdf716a1faaeb088ce6496ec5c35244e8c48936",
+      "frame_index": 100,
+      "timestamp_s": 3.336666666666667,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "smoke",
+          "xyxy": [
+            0.65,
+            22.07,
+            103.22,
+            108.19
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            226.99,
+            26.4,
+            372.84,
+            121.18
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            42.2,
+            75.74,
+            162.51,
+            142.38
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            90.67,
+            6.06,
+            249.93,
+            73.57
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            168.57,
+            34.19,
+            329.56,
+            123.77
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/posVideo3.872-f00160.png",
+      "image_sha256": "7b85d954af65431b394ef5fe11095647e0a53edb743108e0ac3210247b462de1",
+      "width": 480,
+      "height": 272,
+      "source": "fire_videos.1406/pos/posVideo3.872.avi",
+      "source_sha256": "0b0371fb637bee82384024b4ebdf716a1faaeb088ce6496ec5c35244e8c48936",
+      "frame_index": 160,
+      "timestamp_s": 5.338666666666667,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            68.6,
+            3.03,
+            166.4,
+            149.31
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            151.26,
+            36.79,
+            325.23,
+            131.13
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            0.22,
+            30.73,
+            95.86,
+            125.07
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/posVideo3.872-f00250.png",
+      "image_sha256": "2c74cb214b9a97db3cf66e4185ebf48642ed7cb66346bc91541ee219d717adb3",
+      "width": 480,
+      "height": 272,
+      "source": "fire_videos.1406/pos/posVideo3.872.avi",
+      "source_sha256": "0b0371fb637bee82384024b4ebdf716a1faaeb088ce6496ec5c35244e8c48936",
+      "frame_index": 250,
+      "timestamp_s": 8.341666666666667,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "smoke",
+          "xyxy": [
+            2.38,
+            33.32,
+            111.44,
+            147.14
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            361.58,
+            8.22,
+            479.3,
+            143.25
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            73.36,
+            0.87,
+            157.75,
+            146.28
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            146.93,
+            36.79,
+            394.04,
+            137.19
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/posVideo3.872-f00330.png",
+      "image_sha256": "c8dbe755c081cb0e8bf89b507533058b926a785c1b898d8be1a76da93806ba2b",
+      "width": 480,
+      "height": 272,
+      "source": "fire_videos.1406/pos/posVideo3.872.avi",
+      "source_sha256": "0b0371fb637bee82384024b4ebdf716a1faaeb088ce6496ec5c35244e8c48936",
+      "frame_index": 330,
+      "timestamp_s": 11.011000000000001,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            56.04,
+            15.15,
+            170.73,
+            153.2
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            170.3,
+            2.6,
+            203.62,
+            127.67
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            205.35,
+            22.5,
+            316.14,
+            128.53
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            5.41,
+            29.43,
+            131.78,
+            154.5
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            198.0,
+            7.36,
+            349.9,
+            122.48
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos02.818-f00000.png",
+      "image_sha256": "1e0f67526dcb43c9ee4112f98ce9436b5c063daed7852c268d2ab910fc0e5c97",
+      "width": 640,
+      "height": 424,
+      "source": "smoke_videos.1407/pos/testpos02.818.avi",
+      "source_sha256": "f09934deee5aafc7e460d3b74313c2f8a172b1c9c8278515ab92aa6b042b0dc1",
+      "frame_index": 0,
+      "timestamp_s": 0.0,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "smoke",
+          "xyxy": [
+            419.61,
+            0.67,
+            640.0,
+            278.62
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            115.36,
+            238.14,
+            260.4,
+            282.67
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            114.69,
+            258.38,
+            167.31,
+            323.14
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            556.56,
+            226.67,
+            598.39,
+            249.61
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            100.52,
+            135.6,
+            328.54,
+            284.69
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            45.87,
+            296.83,
+            123.46,
+            357.55
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos02.818-f00100.png",
+      "image_sha256": "a073ac475209abaf236fa3a393f07402643ed1b64efb520083cf9459beb5f7bd",
+      "width": 640,
+      "height": 424,
+      "source": "smoke_videos.1407/pos/testpos02.818.avi",
+      "source_sha256": "f09934deee5aafc7e460d3b74313c2f8a172b1c9c8278515ab92aa6b042b0dc1",
+      "frame_index": 100,
+      "timestamp_s": 3.336666666666667,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            120.76,
+            234.77,
+            249.61,
+            295.48
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            43.18,
+            157.86,
+            302.91,
+            362.95
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            437.83,
+            1.35,
+            634.82,
+            274.57
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos02.818-f00200.png",
+      "image_sha256": "ace88880de954c0916648ab411b01048cec3c082572de89d85ade9383e9c2668",
+      "width": 640,
+      "height": 424,
+      "source": "smoke_videos.1407/pos/testpos02.818.avi",
+      "source_sha256": "f09934deee5aafc7e460d3b74313c2f8a172b1c9c8278515ab92aa6b042b0dc1",
+      "frame_index": 200,
+      "timestamp_s": 6.673333333333334,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "smoke",
+          "xyxy": [
+            397.35,
+            4.05,
+            640.0,
+            271.87
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            111.31,
+            232.07,
+            267.15,
+            299.53
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            58.02,
+            137.62,
+            315.05,
+            332.59
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos02.818-f00330.png",
+      "image_sha256": "7158f72a72ef344fe7cc189964f1260f2a64cba8fe10f46c51904c8b9edeb5e5",
+      "width": 640,
+      "height": 424,
+      "source": "smoke_videos.1407/pos/testpos02.818.avi",
+      "source_sha256": "f09934deee5aafc7e460d3b74313c2f8a172b1c9c8278515ab92aa6b042b0dc1",
+      "frame_index": 330,
+      "timestamp_s": 11.011000000000001,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "smoke",
+          "xyxy": [
+            59.37,
+            152.46,
+            307.63,
+            346.08
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            420.96,
+            0.67,
+            636.17,
+            273.9
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            105.92,
+            215.2,
+            246.91,
+            298.18
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos02.818-f00450.png",
+      "image_sha256": "c31f5c64dc0ed49536a22ab65e86084f15339326cc84d931316d742b048c0efa",
+      "width": 640,
+      "height": 424,
+      "source": "smoke_videos.1407/pos/testpos02.818.avi",
+      "source_sha256": "f09934deee5aafc7e460d3b74313c2f8a172b1c9c8278515ab92aa6b042b0dc1",
+      "frame_index": 450,
+      "timestamp_s": 15.015,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            159.21,
+            260.4,
+            244.21,
+            284.02
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            538.35,
+            204.41,
+            570.06,
+            231.4
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            273.22,
+            120.08,
+            323.14,
+            249.61
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            485.05,
+            0.67,
+            640.0,
+            286.04
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            39.13,
+            306.28,
+            117.38,
+            378.46
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            93.1,
+            261.08,
+            165.28,
+            319.77
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos04.820-f01100.png",
+      "image_sha256": "2321d07365726e1040f0fa8f07456f04b0353701dd62bcec6bf49ec64024b94b",
+      "width": 640,
+      "height": 360,
+      "source": "smoke_videos.1407/pos/testpos04.820.avi",
+      "source_sha256": "934d92ace78daf33bbf29abf385ed7f96cc8ba3469e53df9199829a4dfc445ec",
+      "frame_index": 1100,
+      "timestamp_s": 44.0,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "smoke",
+          "xyxy": [
+            79.62,
+            2.29,
+            378.62,
+            242.29
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            193.6,
+            261.77,
+            268.64,
+            283.53
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos04.820-f01200.png",
+      "image_sha256": "4eeb9069d04166464f7e78522293c16d8c12fe4b80fbff07b9b731675209e5a4",
+      "width": 640,
+      "height": 360,
+      "source": "smoke_videos.1407/pos/testpos04.820.avi",
+      "source_sha256": "934d92ace78daf33bbf29abf385ed7f96cc8ba3469e53df9199829a4dfc445ec",
+      "frame_index": 1200,
+      "timestamp_s": 48.0,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            146.06,
+            317.9,
+            234.27,
+            340.81
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            80.19,
+            0.57,
+            406.11,
+            294.42
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos04.820-f01480.png",
+      "image_sha256": "8607f9961aedbcf421784950b2528cedd3d9a6f9d3f30ef4d284d6e4dac19d5f",
+      "width": 640,
+      "height": 360,
+      "source": "smoke_videos.1407/pos/testpos04.820.avi",
+      "source_sha256": "934d92ace78daf33bbf29abf385ed7f96cc8ba3469e53df9199829a4dfc445ec",
+      "frame_index": 1480,
+      "timestamp_s": 59.2,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            305.3,
+            201.62,
+            371.17,
+            234.27
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            80.76,
+            1.15,
+            394.65,
+            219.95
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos04.820-f01837.png",
+      "image_sha256": "a6032257b22b6aa28db9453465a0e09b1d9ade520723991c62bbe57acb1d7392",
+      "width": 640,
+      "height": 360,
+      "source": "smoke_videos.1407/pos/testpos04.820.avi",
+      "source_sha256": "934d92ace78daf33bbf29abf385ed7f96cc8ba3469e53df9199829a4dfc445ec",
+      "frame_index": 1837,
+      "timestamp_s": 73.48,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "absent"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            334.51,
+            132.32,
+            363.72,
+            148.35
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            374.61,
+            144.92,
+            419.86,
+            187.3
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            285.25,
+            158.66,
+            309.88,
+            176.42
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            297.85,
+            161.53,
+            336.8,
+            213.65
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            282.96,
+            131.17,
+            307.59,
+            139.76
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos04.820-f01920.png",
+      "image_sha256": "fc8ca834702a018bcc73a2b290c9ca173ae878a22a101489c0bdc66141e2b08b",
+      "width": 640,
+      "height": 360,
+      "source": "smoke_videos.1407/pos/testpos04.820.avi",
+      "source_sha256": "934d92ace78daf33bbf29abf385ed7f96cc8ba3469e53df9199829a4dfc445ec",
+      "frame_index": 1920,
+      "timestamp_s": 76.8,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            256.61,
+            167.83,
+            313.89,
+            201.62
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            390.07,
+            84.77,
+            524.11,
+            296.71
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos06.822-f00177.png",
+      "image_sha256": "7128d879d042f2af64085def8b5825a9e3e3ab24d6f83c522df3e4d5b2a8bcc6",
+      "width": 320,
+      "height": 240,
+      "source": "smoke_videos.1407/pos/testpos06.822.avi",
+      "source_sha256": "fb28263a6215465aaa617ddc52e4f08d498f37dcbc7a80687282f0722fa4975b",
+      "frame_index": 177,
+      "timestamp_s": 17.7,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "absent",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "smoke",
+          "xyxy": [
+            131.17,
+            0.38,
+            178.14,
+            118.0
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos06.822-f00185.png",
+      "image_sha256": "b735cdb60363be45eca896d7374ff3eb97891697f0c091566ea00821193d15bb",
+      "width": 320,
+      "height": 240,
+      "source": "smoke_videos.1407/pos/testpos06.822.avi",
+      "source_sha256": "fb28263a6215465aaa617ddc52e4f08d498f37dcbc7a80687282f0722fa4975b",
+      "frame_index": 185,
+      "timestamp_s": 18.5,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "smoke",
+          "xyxy": [
+            123.15,
+            0.38,
+            182.72,
+            75.23
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            159.67,
+            115.17,
+            178.67,
+            131.5
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos06.822-f00195.png",
+      "image_sha256": "d2635b0a07dbdc552ac8b24b8757399f0299385cbd7b7b4a374cdcf50e678763",
+      "width": 320,
+      "height": 240,
+      "source": "smoke_videos.1407/pos/testpos06.822.avi",
+      "source_sha256": "fb28263a6215465aaa617ddc52e4f08d498f37dcbc7a80687282f0722fa4975b",
+      "frame_index": 195,
+      "timestamp_s": 19.5,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            160.57,
+            112.27,
+            174.32,
+            129.83
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            109.02,
+            0.76,
+            200.67,
+            85.16
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos06.822-f00200.png",
+      "image_sha256": "7fc4ca7dd53666c62b55a835e40bafd8d385fc9632f5084867fa5fad6c533851",
+      "width": 320,
+      "height": 240,
+      "source": "smoke_videos.1407/pos/testpos06.822.avi",
+      "source_sha256": "fb28263a6215465aaa617ddc52e4f08d498f37dcbc7a80687282f0722fa4975b",
+      "frame_index": 200,
+      "timestamp_s": 20.0,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "smoke",
+          "xyxy": [
+            112.84,
+            0.76,
+            204.49,
+            76.75
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            155.23,
+            109.59,
+            178.9,
+            130.98
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos08.824-f00123.png",
+      "image_sha256": "a9a4b40eb0f9eabd71536860df523e13a92dbc8d780a856bbb625e16badc2431",
+      "width": 320,
+      "height": 240,
+      "source": "smoke_videos.1407/pos/testpos08.824.avi",
+      "source_sha256": "32f6a9450e81f106f24b2b9c7feb7a5f50fae6a42b9871282c883b2205e057f2",
+      "frame_index": 123,
+      "timestamp_s": 8.2,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            124.3,
+            159.24,
+            138.81,
+            175.27
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            97.18,
+            52.32,
+            232.74,
+            161.91
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos08.824-f00135.png",
+      "image_sha256": "26e55562c764077544cb3a70c359d4729a9872b1203b0158db4e56a7296112d2",
+      "width": 320,
+      "height": 240,
+      "source": "smoke_videos.1407/pos/testpos08.824.avi",
+      "source_sha256": "32f6a9450e81f106f24b2b9c7feb7a5f50fae6a42b9871282c883b2205e057f2",
+      "frame_index": 135,
+      "timestamp_s": 9.0,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "smoke",
+          "xyxy": [
+            97.95,
+            1.91,
+            270.93,
+            154.65
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            113.22,
+            132.12,
+            150.26,
+            174.13
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos08.824-f00160.png",
+      "image_sha256": "0d5f9233cfec5577f58d11e52fe74717b5fbc43b0edd9ddfbd702e41c5cdf2ca",
+      "width": 320,
+      "height": 240,
+      "source": "smoke_videos.1407/pos/testpos08.824.avi",
+      "source_sha256": "32f6a9450e81f106f24b2b9c7feb7a5f50fae6a42b9871282c883b2205e057f2",
+      "frame_index": 160,
+      "timestamp_s": 10.666666666666666,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            112.46,
+            112.65,
+            144.53,
+            174.89
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            78.85,
+            0.76,
+            208.69,
+            127.54
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos08.824-f00210.png",
+      "image_sha256": "e15bcc03f0c8daf02e106a212e97013eae0a8d01d8141e66534aeddb145eeca3",
+      "width": 320,
+      "height": 240,
+      "source": "smoke_videos.1407/pos/testpos08.824.avi",
+      "source_sha256": "32f6a9450e81f106f24b2b9c7feb7a5f50fae6a42b9871282c883b2205e057f2",
+      "frame_index": 210,
+      "timestamp_s": 14.0,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "smoke",
+          "xyxy": [
+            83.82,
+            1.53,
+            278.19,
+            119.52
+          ]
+        },
+        {
+          "label": "fire",
+          "xyxy": [
+            108.64,
+            96.23,
+            147.59,
+            174.13
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/testpos08.824-f00260.png",
+      "image_sha256": "09f1b1ef0a4ef8eb683d950fcf1edbe74ad4a3fcbd90d652293ebe0018114344",
+      "width": 320,
+      "height": 240,
+      "source": "smoke_videos.1407/pos/testpos08.824.avi",
+      "source_sha256": "32f6a9450e81f106f24b2b9c7feb7a5f50fae6a42b9871282c883b2205e057f2",
+      "frame_index": 260,
+      "timestamp_s": 17.333333333333332,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "present",
+        "smoke": "present"
+      },
+      "boxes": [
+        {
+          "label": "fire",
+          "xyxy": [
+            114.37,
+            94.32,
+            147.59,
+            173.37
+          ]
+        },
+        {
+          "label": "smoke",
+          "xyxy": [
+            32.65,
+            1.15,
+            280.1,
+            101.19
+          ]
+        }
+      ],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/negsVideo1.858-f01900.png",
+      "image_sha256": "b733864602f885a69fa4e17dbf28ab6bbb462a06a0cc25da62422ee11482a21c",
+      "width": 640,
+      "height": 480,
+      "source": "fire_videos.1406/neg/negsVideo1.858.avi",
+      "source_sha256": "54594879622ecf02e3137ea536baf1e4dcf0965a5ad695a59ece75c02717b266",
+      "frame_index": 1900,
+      "timestamp_s": 79.16666666666667,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "absent",
+        "smoke": "absent"
+      },
+      "boxes": [],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/negsVideo1.858-f01927.png",
+      "image_sha256": "6020ebe367cc3ec2afc4f08482c10c75437ee27e8721878516e4e5a077caff23",
+      "width": 640,
+      "height": 480,
+      "source": "fire_videos.1406/neg/negsVideo1.858.avi",
+      "source_sha256": "54594879622ecf02e3137ea536baf1e4dcf0965a5ad695a59ece75c02717b266",
+      "frame_index": 1927,
+      "timestamp_s": 80.29166666666667,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "absent",
+        "smoke": "absent"
+      },
+      "boxes": [],
+      "notes": "",
+      "completed": true
+    },
+    {
+      "image": "images/negsVideo1.858-f02000.png",
+      "image_sha256": "378e2dc49f6301f030e1af2de981d614fb781240f6d3bd5a811883a30472793c",
+      "width": 640,
+      "height": 480,
+      "source": "fire_videos.1406/neg/negsVideo1.858.avi",
+      "source_sha256": "54594879622ecf02e3137ea536baf1e4dcf0965a5ad695a59ece75c02717b266",
+      "frame_index": 2000,
+      "timestamp_s": 83.33333333333333,
+      "split": "development",
+      "reviewer_id": "R1",
+      "class_status": {
+        "fire": "absent",
+        "smoke": "absent"
+      },
+      "boxes": [],
+      "notes": "",
+      "completed": true
+    }
+  ]
+}

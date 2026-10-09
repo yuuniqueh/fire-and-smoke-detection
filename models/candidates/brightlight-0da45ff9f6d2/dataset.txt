@@ -1,0 +1,6 @@
+# FireSmokeNEWdataset > 2024-05-04 8:29pm
+https://universe.roboflow.com/catargiuconstantin2/firesmokenewdataset
+
+Provided by a Roboflow user
+License: CC BY 4.0
+

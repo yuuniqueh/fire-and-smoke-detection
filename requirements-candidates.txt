@@ -1,0 +1,2 @@
+# Optional checkpoint loading dependency; not required by the default model.
+dill==0.4.0

@@ -1,0 +1,500 @@
+[
+  {
+    "name": "annotated-doc",
+    "version": "0.0.5",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\annotated_doc-0.0.5.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "anyio",
+    "version": "4.12.1",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\anyio-4.12.1.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "certifi",
+    "version": "2026.4.22",
+    "license_expression": null,
+    "license_metadata": "MPL-2.0",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\certifi-2026.4.22.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.4.7",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\charset_normalizer-3.4.7.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "click",
+    "version": "8.1.8",
+    "license_expression": null,
+    "license_metadata": null,
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\click-8.1.8.dist-info\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "colorama",
+    "version": "0.4.6",
+    "license_expression": null,
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\colorama-0.4.6.dist-info\\licenses\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "contourpy",
+    "version": "1.3.0",
+    "license_expression": null,
+    "license_metadata": "BSD 3-Clause License\n        \n        Copyright (c) 2021-2024, ContourPy Developers.\n        All rights reserved.\n        \n        Redistribution and use in source and binary forms, with or without\n        modification, are permitted provided that the following conditions are met:\n        \n        1. Redistributions of source code must retain the above copyright notice, this\n           list of conditions and the following disclaimer.\n        \n        2. Redistributions in binary form must reproduce the above copyright notice,\n           this list of conditions and the following disclaimer in the documentation\n           and/or other materials provided with the distribution.\n        \n        3. Neither the name of the copyright holder nor the names of its\n           contributors may be used to endorse or promote products derived from\n           this software without specific prior written permission.\n        \n        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\contourpy-1.3.0.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "cycler",
+    "version": "0.12.1",
+    "license_expression": null,
+    "license_metadata": "Copyright (c) 2015, matplotlib project\n        All rights reserved.\n        \n        Redistribution and use in source and binary forms, with or without\n        modification, are permitted provided that the following conditions are met:\n        \n        * Redistributions of source code must retain the above copyright notice, this\n          list of conditions and the following disclaimer.\n        \n        * Redistributions in binary form must reproduce the above copyright notice,\n          this list of conditions and the following disclaimer in the documentation\n          and/or other materials provided with the distribution.\n        \n        * Neither the name of the matplotlib project nor the names of its\n          contributors may be used to endorse or promote products derived from\n          this software without specific prior written permission.\n        \n        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\cycler-0.12.1.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "exceptiongroup",
+    "version": "1.3.1",
+    "license_expression": null,
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\exceptiongroup-1.3.1.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "filelock",
+    "version": "3.19.1",
+    "license_expression": "Unlicense",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\filelock-3.19.1.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "fonttools",
+    "version": "4.60.2",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\fonttools-4.60.2.dist-info\\licenses\\LICENSE",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\fonttools-4.60.2.dist-info\\licenses\\LICENSE.external"
+    ]
+  },
+  {
+    "name": "fsspec",
+    "version": "2025.10.0",
+    "license_expression": "BSD-3-Clause",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\fsspec-2025.10.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\h11-0.16.0.dist-info\\licenses\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "hf-xet",
+    "version": "1.6.0",
+    "license_expression": "Apache-2.0",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\hf_xet-1.6.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "httpcore",
+    "version": "1.0.9",
+    "license_expression": "BSD-3-Clause",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\httpcore-1.0.9.dist-info\\licenses\\LICENSE.md"
+    ]
+  },
+  {
+    "name": "httpx",
+    "version": "0.28.1",
+    "license_expression": null,
+    "license_metadata": "BSD-3-Clause",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\httpx-0.28.1.dist-info\\licenses\\LICENSE.md"
+    ]
+  },
+  {
+    "name": "huggingface_hub",
+    "version": "1.8.0",
+    "license_expression": null,
+    "license_metadata": "Apache-2.0",
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\huggingface_hub-1.8.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "idna",
+    "version": "3.13",
+    "license_expression": "BSD-3-Clause",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\idna-3.13.dist-info\\licenses\\LICENSE.md"
+    ]
+  },
+  {
+    "name": "importlib_resources",
+    "version": "6.5.2",
+    "license_expression": null,
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\importlib_resources-6.5.2.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "Jinja2",
+    "version": "3.1.6",
+    "license_expression": null,
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\jinja2-3.1.6.dist-info\\licenses\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "kiwisolver",
+    "version": "1.4.7",
+    "license_expression": null,
+    "license_metadata": "=========================\n         The Kiwi licensing terms\n        =========================\n        Kiwi is licensed under the terms of the Modified BSD License (also known as\n        New or Revised BSD), as follows:\n        \n        Copyright (c) 2013-2024, Nucleic Development Team\n        \n        All rights reserved.\n        \n        Redistribution and use in source and binary forms, with or without\n        modification, are permitted provided that the following conditions are met:\n        \n        Redistributions of source code must retain the above copyright notice, this\n        list of conditions and the following disclaimer.\n        \n        Redistributions in binary form must reproduce the above copyright notice, this\n        list of conditions and the following disclaimer in the documentation and/or\n        other materials provided with the distribution.\n        \n        Neither the name of the Nucleic Development Team nor the names of its\n        contributors may be used to endorse or promote products derived from this\n        software without specific prior written permission.\n        \n        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n        DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE\n        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n        \n        About Kiwi\n        ----------\n        Chris Colbert began the Kiwi project in December 2013 in an effort to\n        create a blisteringly fast UI constraint solver. Chris is still the\n        project lead.\n        \n        The Nucleic Development Team is the set of all contributors to the Nucleic\n        project and its subprojects.\n        \n        The core team that coordinates development on GitHub can be found here:\n        http://github.com/nucleic. The current team consists of:\n        \n        * Chris Colbert\n        \n        Our Copyright Policy\n        --------------------\n        Nucleic uses a shared copyright model. Each contributor maintains copyright\n        over their contributions to Nucleic. But, it is important to note that these\n        contributions are typically only changes to the repositories. Thus, the Nucleic\n        source code, in its entirety is not the copyright of any single person or\n        institution. Instead, it is the collective copyright of the entire Nucleic\n        Development Team. If individual contributors want to maintain a record of what\n        changes/contributions they have specific copyright on, they should indicate\n        their copyright in the commit message of the change, when they commit the\n        change to one of the Nucleic repositories.\n        \n        With this in mind, the following banner should be used in any source code file\n        to indicate the copyright and license terms:\n        \n        #------------------------------------------------------------------------------\n        # Copyright (c) 2013-2024, Nucleic Development Team.\n        #\n        # Distributed under the terms of the Modified BSD License.\n        #\n        # The full license is in the file LICENSE, distributed with this software.\n        #------------------------------------------------------------------------------\n        ",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\kiwisolver-1.4.7.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "markdown-it-py",
+    "version": "3.0.0",
+    "license_expression": null,
+    "license_metadata": null,
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\markdown_it_py-3.0.0.dist-info\\LICENSE",
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\markdown_it_py-3.0.0.dist-info\\LICENSE.markdown-it"
+    ]
+  },
+  {
+    "name": "MarkupSafe",
+    "version": "3.0.2",
+    "license_expression": null,
+    "license_metadata": "Copyright 2010 Pallets\n        \n        Redistribution and use in source and binary forms, with or without\n        modification, are permitted provided that the following conditions are\n        met:\n        \n        1.  Redistributions of source code must retain the above copyright\n            notice, this list of conditions and the following disclaimer.\n        \n        2.  Redistributions in binary form must reproduce the above copyright\n            notice, this list of conditions and the following disclaimer in the\n            documentation and/or other materials provided with the distribution.\n        \n        3.  Neither the name of the copyright holder nor the names of its\n            contributors may be used to endorse or promote products derived from\n            this software without specific prior written permission.\n        \n        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n        \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n        LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A\n        PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n        HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n        SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED\n        TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\n        PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n        LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\n        NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n        SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n        ",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "matplotlib",
+    "version": "3.7.2",
+    "license_expression": null,
+    "license_metadata": "PSF",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE_AMSFONTS",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE_BAKOMA",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE_CARLOGO",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE_COLORBREWER",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE_COURIERTEN",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE_JSXTOOLS_RESIZE_OBSERVER",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE_QHULL",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE_QT4_EDITOR",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE_SOLARIZED",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE_STIX",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib-3.7.2.dist-info\\LICENSE_YORICK",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_DEJAVU",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_STIX"
+    ]
+  },
+  {
+    "name": "mdurl",
+    "version": "0.1.2",
+    "license_expression": null,
+    "license_metadata": null,
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\mdurl-0.1.2.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "mpmath",
+    "version": "1.3.0",
+    "license_expression": null,
+    "license_metadata": "BSD",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\mpmath-1.3.0.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "networkx",
+    "version": "3.2.1",
+    "license_expression": null,
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\networkx-3.2.1.dist-info\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "1.23.5",
+    "license_expression": null,
+    "license_metadata": "BSD",
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\numpy-1.23.5.dist-info\\LICENSE.txt",
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\numpy-1.23.5.dist-info\\LICENSES_bundled.txt",
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\numpy\\LICENSE.txt",
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\numpy\\core\\include\\numpy\\libdivide\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "nvidia-ml-py",
+    "version": "13.615.71",
+    "license_expression": null,
+    "license_metadata": "BSD",
+    "license_files": []
+  },
+  {
+    "name": "opencv-python",
+    "version": "4.11.0.86",
+    "license_expression": null,
+    "license_metadata": "Apache 2.0",
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\cv2\\LICENSE-3RD-PARTY.txt",
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\cv2\\LICENSE.txt",
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\opencv_python-4.11.0.86.dist-info\\LICENSE-3RD-PARTY.txt",
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\opencv_python-4.11.0.86.dist-info\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "packaging",
+    "version": "26.2",
+    "license_expression": "Apache-2.0 OR BSD-2-Clause",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\packaging-26.2.dist-info\\licenses\\LICENSE",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\packaging-26.2.dist-info\\licenses\\LICENSE.APACHE",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\packaging-26.2.dist-info\\licenses\\LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "pillow",
+    "version": "11.3.0",
+    "license_expression": "MIT-CMU",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\pillow-11.3.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "polars",
+    "version": "1.36.1",
+    "license_expression": null,
+    "license_metadata": "Copyright (c) 2025 Ritchie Vink\n        Some portions Copyright (c) 2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        ",
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\polars-1.36.1.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "polars-runtime-32",
+    "version": "1.36.1",
+    "license_expression": null,
+    "license_metadata": null,
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\polars_runtime_32-1.36.1.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "psutil",
+    "version": "7.2.2",
+    "license_expression": null,
+    "license_metadata": "BSD-3-Clause",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\psutil-7.2.2.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "Pygments",
+    "version": "2.20.0",
+    "license_expression": "BSD-2-Clause",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\pygments-2.20.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.0.9",
+    "license_expression": null,
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\pyparsing-3.0.9.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0.post0",
+    "license_expression": null,
+    "license_metadata": "Dual License",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\python_dateutil-2.9.0.post0.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\pyyaml-6.0.3.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "requests",
+    "version": "2.31.0",
+    "license_expression": null,
+    "license_metadata": "Apache 2.0",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\requests-2.31.0.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "rich",
+    "version": "15.0.0",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\rich-15.0.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "shellingham",
+    "version": "1.5.4",
+    "license_expression": null,
+    "license_metadata": "ISC License",
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\shellingham-1.5.4.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "license_expression": null,
+    "license_metadata": "MIT",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\six-1.17.0.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "sympy",
+    "version": "1.14.0",
+    "license_expression": null,
+    "license_metadata": "BSD",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\sympy-1.14.0.dist-info\\licenses\\LICENSE",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\sympy\\parsing\\latex\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "torch",
+    "version": "2.8.0+cu128",
+    "license_expression": null,
+    "license_metadata": "BSD-3-Clause",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\torch-2.8.0+cu128.dist-info\\LICENSE",
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\torch-2.8.0+cu128.dist-info\\NOTICE"
+    ]
+  },
+  {
+    "name": "torchvision",
+    "version": "0.23.0+cu128",
+    "license_expression": null,
+    "license_metadata": "BSD",
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\torchvision-0.23.0+cu128.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "tqdm",
+    "version": "4.70.0",
+    "license_expression": null,
+    "license_metadata": "MPL-2.0 AND MIT",
+    "license_files": []
+  },
+  {
+    "name": "typer",
+    "version": "0.23.2",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\typer-0.23.2.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.15.0",
+    "license_expression": "PSF-2.0",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\typing_extensions-4.15.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "ultralytics",
+    "version": "8.4.173",
+    "license_expression": null,
+    "license_metadata": "AGPL-3.0",
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\ultralytics-8.4.173.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "ultralytics-thop",
+    "version": "2.2.2",
+    "license_expression": null,
+    "license_metadata": "AGPL-3.0",
+    "license_files": [
+      "D:\\AI_competition\\.venv-pytorch\\lib\\site-packages\\ultralytics_thop-2.2.2.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "urllib3",
+    "version": "2.6.3",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\urllib3-2.6.3.dist-info\\licenses\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "zipp",
+    "version": "3.23.1",
+    "license_expression": "MIT",
+    "license_metadata": null,
+    "license_files": [
+      "D:\\anaconda\\envs\\pytorch\\lib\\site-packages\\zipp-3.23.1.dist-info\\licenses\\LICENSE"
+    ]
+  }
+]

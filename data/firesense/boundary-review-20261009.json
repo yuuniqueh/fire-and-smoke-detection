@@ -1,0 +1,9 @@
+{
+  "source": "smoke_videos.1407/pos/testpos06.822.avi",
+  "user_statement": "176大概",
+  "approximate_first_visible_fire_frame": 176,
+  "original_interval_start_frame": 177,
+  "frozen_annotations_modified": false,
+  "sensitivity_result": "outputs\\local-fire-class-route-replay-20261009-195102-390832\\boundary-sensitivity.json",
+  "note": "Record of user review, not an exact frame adjudication or revised ground truth."
+}

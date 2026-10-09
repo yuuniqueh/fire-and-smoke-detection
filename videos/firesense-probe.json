@@ -1,0 +1,541 @@
+[
+  {
+    "filename": "fire_videos.1406/neg/negsVideo1.858.avi",
+    "fps": 24.0,
+    "declared_frames": 4539,
+    "duration_s": 189.125,
+    "first_frame_readable": true,
+    "frame_size": [
+      640,
+      480
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo10.1072.avi",
+    "fps": 25.0,
+    "declared_frames": 246,
+    "duration_s": 9.84,
+    "first_frame_readable": true,
+    "frame_size": [
+      360,
+      288
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo11.1073.avi",
+    "fps": 25.0,
+    "declared_frames": 180,
+    "duration_s": 7.2,
+    "first_frame_readable": true,
+    "frame_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo12.1074.avi",
+    "fps": 19.68503937007874,
+    "declared_frames": 514,
+    "duration_s": 26.111,
+    "first_frame_readable": true,
+    "frame_size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo13.1075.avi",
+    "fps": 24.4615,
+    "declared_frames": 271,
+    "duration_s": 11.079,
+    "first_frame_readable": true,
+    "frame_size": [
+      352,
+      288
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo14.1076.avi",
+    "fps": 24.0553,
+    "declared_frames": 45,
+    "duration_s": 1.871,
+    "first_frame_readable": true,
+    "frame_size": [
+      352,
+      288
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo15.1078.avi",
+    "fps": 19.68503937007874,
+    "declared_frames": 58,
+    "duration_s": 2.946,
+    "first_frame_readable": true,
+    "frame_size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo16.1077.avi",
+    "fps": 18.508236165093468,
+    "declared_frames": 196,
+    "duration_s": 10.59,
+    "first_frame_readable": true,
+    "frame_size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo2.859.avi",
+    "fps": 10.0,
+    "declared_frames": 155,
+    "duration_s": 15.5,
+    "first_frame_readable": true,
+    "frame_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo3.860.avi",
+    "fps": 10.0,
+    "declared_frames": 160,
+    "duration_s": 16.0,
+    "first_frame_readable": true,
+    "frame_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo4.861.avi",
+    "fps": 30.0,
+    "declared_frames": 1931,
+    "duration_s": 64.367,
+    "first_frame_readable": true,
+    "frame_size": [
+      640,
+      368
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo5.862.avi",
+    "fps": 30.0,
+    "declared_frames": 439,
+    "duration_s": 14.633,
+    "first_frame_readable": true,
+    "frame_size": [
+      480,
+      368
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo6.863.avi",
+    "fps": 25.0,
+    "declared_frames": 1142,
+    "duration_s": 45.68,
+    "first_frame_readable": true,
+    "frame_size": [
+      640,
+      480
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo7.864.avi",
+    "fps": 30.0,
+    "declared_frames": 541,
+    "duration_s": 18.033,
+    "first_frame_readable": true,
+    "frame_size": [
+      640,
+      368
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo8.865.avi",
+    "fps": 29.97002997002997,
+    "declared_frames": 3761,
+    "duration_s": 125.492,
+    "first_frame_readable": true,
+    "frame_size": [
+      640,
+      352
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/neg/negsVideo9.866.avi",
+    "fps": 25.0,
+    "declared_frames": 645,
+    "duration_s": 25.8,
+    "first_frame_readable": true,
+    "frame_size": [
+      640,
+      480
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/pos/posVideo1.868.avi",
+    "fps": 10.0,
+    "declared_frames": 293,
+    "duration_s": 29.3,
+    "first_frame_readable": true,
+    "frame_size": [
+      352,
+      288
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/pos/posVideo10.869.avi",
+    "fps": 29.97,
+    "declared_frames": 235,
+    "duration_s": 7.841,
+    "first_frame_readable": true,
+    "frame_size": [
+      400,
+      256
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/pos/posVideo11.870.avi",
+    "fps": 15.0,
+    "declared_frames": 178,
+    "duration_s": 11.867,
+    "first_frame_readable": true,
+    "frame_size": [
+      400,
+      256
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/pos/posVideo2.871.avi",
+    "fps": 29.97002997002997,
+    "declared_frames": 510,
+    "duration_s": 17.017,
+    "first_frame_readable": true,
+    "frame_size": [
+      480,
+      272
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/pos/posVideo3.872.avi",
+    "fps": 29.97002997002997,
+    "declared_frames": 381,
+    "duration_s": 12.713,
+    "first_frame_readable": true,
+    "frame_size": [
+      480,
+      272
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/pos/posVideo4.873.avi",
+    "fps": 29.97002997002997,
+    "declared_frames": 1655,
+    "duration_s": 55.222,
+    "first_frame_readable": true,
+    "frame_size": [
+      480,
+      272
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/pos/posVideo5.874.avi",
+    "fps": 29.97002997002997,
+    "declared_frames": 2406,
+    "duration_s": 80.28,
+    "first_frame_readable": true,
+    "frame_size": [
+      480,
+      272
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/pos/posVideo6.875.avi",
+    "fps": 10.0,
+    "declared_frames": 258,
+    "duration_s": 25.8,
+    "first_frame_readable": true,
+    "frame_size": [
+      352,
+      288
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/pos/posVideo7.876.avi",
+    "fps": 10.0,
+    "declared_frames": 547,
+    "duration_s": 54.7,
+    "first_frame_readable": true,
+    "frame_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/pos/posVideo8.877.avi",
+    "fps": 29.97002997002997,
+    "declared_frames": 513,
+    "duration_s": 17.117,
+    "first_frame_readable": true,
+    "frame_size": [
+      480,
+      272
+    ]
+  },
+  {
+    "filename": "fire_videos.1406/pos/posVideo9.878.avi",
+    "fps": 29.97002997002997,
+    "declared_frames": 663,
+    "duration_s": 22.122,
+    "first_frame_readable": true,
+    "frame_size": [
+      480,
+      272
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/neg/testneg01.807.avi",
+    "fps": 25.0,
+    "declared_frames": 251,
+    "duration_s": 10.04,
+    "first_frame_readable": true,
+    "frame_size": [
+      352,
+      288
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/neg/testneg02.808.avi",
+    "fps": 25.0,
+    "declared_frames": 1128,
+    "duration_s": 45.12,
+    "first_frame_readable": true,
+    "frame_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/neg/testneg03.809.avi",
+    "fps": 30.00003000003,
+    "declared_frames": 748,
+    "duration_s": 24.933,
+    "first_frame_readable": true,
+    "frame_size": [
+      640,
+      480
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/neg/testneg04.810.avi",
+    "fps": 25.0,
+    "declared_frames": 2840,
+    "duration_s": 113.6,
+    "first_frame_readable": true,
+    "frame_size": [
+      704,
+      576
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/neg/testneg05.811.avi",
+    "fps": 25.0,
+    "declared_frames": 251,
+    "duration_s": 10.04,
+    "first_frame_readable": true,
+    "frame_size": [
+      352,
+      288
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/neg/testneg06.812.avi",
+    "fps": 25.0,
+    "declared_frames": 251,
+    "duration_s": 10.04,
+    "first_frame_readable": true,
+    "frame_size": [
+      352,
+      288
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/neg/testneg07.813.avi",
+    "fps": 25.0,
+    "declared_frames": 776,
+    "duration_s": 31.04,
+    "first_frame_readable": true,
+    "frame_size": [
+      352,
+      288
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/neg/testneg08.814.avi",
+    "fps": 25.0,
+    "declared_frames": 751,
+    "duration_s": 30.04,
+    "first_frame_readable": true,
+    "frame_size": [
+      352,
+      288
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/neg/testneg09.815.avi",
+    "fps": 25.0,
+    "declared_frames": 723,
+    "duration_s": 28.92,
+    "first_frame_readable": true,
+    "frame_size": [
+      352,
+      288
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos01.817.avi",
+    "fps": 24.0,
+    "declared_frames": 407,
+    "duration_s": 16.958,
+    "first_frame_readable": true,
+    "frame_size": [
+      640,
+      360
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos02.818.avi",
+    "fps": 29.97002997002997,
+    "declared_frames": 1728,
+    "duration_s": 57.658,
+    "first_frame_readable": true,
+    "frame_size": [
+      640,
+      424
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos03.819.avi",
+    "fps": 14.999925000374999,
+    "declared_frames": 322,
+    "duration_s": 21.467,
+    "first_frame_readable": true,
+    "frame_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos04.820.avi",
+    "fps": 25.0,
+    "declared_frames": 1964,
+    "duration_s": 78.56,
+    "first_frame_readable": true,
+    "frame_size": [
+      640,
+      360
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos05.821.avi",
+    "fps": 4.6905,
+    "declared_frames": 514,
+    "duration_s": 109.583,
+    "first_frame_readable": true,
+    "frame_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos06.822.avi",
+    "fps": 10.0,
+    "declared_frames": 201,
+    "duration_s": 20.1,
+    "first_frame_readable": true,
+    "frame_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos07.823.avi",
+    "fps": 10.0,
+    "declared_frames": 701,
+    "duration_s": 70.1,
+    "first_frame_readable": true,
+    "frame_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos08.824.avi",
+    "fps": 15.0,
+    "declared_frames": 363,
+    "duration_s": 24.2,
+    "first_frame_readable": true,
+    "frame_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos09.825.avi",
+    "fps": 30.0,
+    "declared_frames": 828,
+    "duration_s": 27.6,
+    "first_frame_readable": true,
+    "frame_size": [
+      640,
+      360
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos10.826.avi",
+    "fps": 29.97,
+    "declared_frames": 1470,
+    "duration_s": 49.049,
+    "first_frame_readable": true,
+    "frame_size": [
+      480,
+      360
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos11.827.avi",
+    "fps": 25.0,
+    "declared_frames": 678,
+    "duration_s": 27.12,
+    "first_frame_readable": true,
+    "frame_size": [
+      320,
+      240
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos12.828.avi",
+    "fps": 29.94,
+    "declared_frames": 363,
+    "duration_s": 12.124,
+    "first_frame_readable": true,
+    "frame_size": [
+      480,
+      270
+    ]
+  },
+  {
+    "filename": "smoke_videos.1407/pos/testpos13.829.avi",
+    "fps": 29.97,
+    "declared_frames": 464,
+    "duration_s": 15.482,
+    "first_frame_readable": true,
+    "frame_size": [
+      300,
+      240
+    ]
+  }
+]

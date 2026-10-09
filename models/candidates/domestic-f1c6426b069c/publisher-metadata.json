@@ -1,0 +1,63 @@
+{
+  "_id": "6a5667dc103e5eaa919fc13f",
+  "id": "mfranzon/fire-smoke-yolov8",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "yolov8",
+    "object-detection",
+    "fire-detection",
+    "smoke-detection",
+    "license:agpl-3.0",
+    "region:us"
+  ],
+  "downloads": 328,
+  "likes": 1,
+  "modelId": "mfranzon/fire-smoke-yolov8",
+  "author": "mfranzon",
+  "sha": "f1c6426b069c1849cbf13b1ef5d2a260289286db",
+  "lastModified": "2026-07-14T16:46:27.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "agpl-3.0",
+    "tags": [
+      "ultralytics",
+      "yolov8",
+      "object-detection",
+      "fire-detection",
+      "smoke-detection"
+    ],
+    "library_name": "ultralytics",
+    "pipeline_tag": "object-detection"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "acd7de017578a90c29f0bd2d6b67be65f8eb2627",
+      "size": 1144
+    },
+    {
+      "rfilename": "fire_smoke_yolov8.pt",
+      "blobId": "a4741a509bbcb0c186c85b8c3409527f83f81dfd",
+      "size": 6262051,
+      "lfs": {
+        "sha256": "ac0a10257b2bc1f20c9d957f8adeeb61dd6140322fc19d0b4a116cb491776d16",
+        "size": 6262051,
+        "pointerSize": 132
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-07-14T16:46:20.000Z",
+  "usedStorage": 6262051
+}

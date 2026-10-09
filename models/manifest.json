@@ -1,0 +1,12 @@
+{
+  "repo_id": "rabahdev/fire-smoke-yolov8n",
+  "revision": "13017fe8af477c25f5298d168e2dfede4b000753",
+  "filename": "best.pt",
+  "source_url": "https://huggingface.co/rabahdev/fire-smoke-yolov8n",
+  "license_declared_by_repository": "agpl-3.0",
+  "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+  "repository_sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+  "size_bytes": 6229802,
+  "downloaded_at_utc": "2026-10-06T08:33:15.614791+00:00",
+  "training_provenance": "Repository describes a YOLOv8n D-Fire fine-tune; not trained by this project."
+}

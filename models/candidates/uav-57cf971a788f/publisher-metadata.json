@@ -1,0 +1,224 @@
+{
+  "_id": "6a70584dad5e0d66b76bf0f6",
+  "id": "xiazh0219/yolo26m-UAV-fire-smoke-detection",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "yolo",
+    "yolo26m",
+    "object-detection",
+    "fire-detection",
+    "smoke-detection",
+    "uav",
+    "drone",
+    "forestry",
+    "remote-sensing",
+    "sliced-inference",
+    "computer-vision",
+    "en",
+    "zh",
+    "license:agpl-3.0",
+    "model-index",
+    "region:us"
+  ],
+  "downloads": 306,
+  "likes": 2,
+  "modelId": "xiazh0219/yolo26m-UAV-fire-smoke-detection",
+  "author": "xiazh0219",
+  "sha": "57cf971a788fff62b8f3e5b1c3632e1214b8255c",
+  "lastModified": "2026-09-17T03:26:44.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": [
+    {
+      "name": "yolo26m-fasdd-fire-smoke-detection",
+      "results": [
+        {
+          "task": {
+            "type": "object-detection",
+            "name": "Object Detection"
+          },
+          "dataset": {
+            "name": "FASDD",
+            "type": "FASDD"
+          },
+          "metrics": [
+            {
+              "type": "mAP50",
+              "value": 0.843,
+              "name": "mAP@0.5",
+              "verified": false
+            },
+            {
+              "type": "mAP50-95",
+              "value": 0.594,
+              "name": "mAP@0.5:0.95",
+              "verified": false
+            },
+            {
+              "type": "precision",
+              "value": 0.811,
+              "name": "Precision",
+              "verified": false
+            },
+            {
+              "type": "recall",
+              "value": 0.829,
+              "name": "Recall",
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {},
+  "cardData": {
+    "language": [
+      "en",
+      "zh"
+    ],
+    "tags": [
+      "ultralytics",
+      "yolo",
+      "yolo26m",
+      "object-detection",
+      "fire-detection",
+      "smoke-detection",
+      "uav",
+      "drone",
+      "forestry",
+      "remote-sensing",
+      "sliced-inference",
+      "computer-vision"
+    ],
+    "license": "agpl-3.0",
+    "pipeline_tag": "object-detection",
+    "library_name": "ultralytics",
+    "model-index": [
+      {
+        "name": "yolo26m-fasdd-fire-smoke-detection",
+        "results": [
+          {
+            "task": {
+              "type": "object-detection",
+              "name": "Object Detection"
+            },
+            "dataset": {
+              "name": "FASDD",
+              "type": "FASDD"
+            },
+            "metrics": [
+              {
+                "type": "mAP50",
+                "value": 0.843,
+                "name": "mAP@0.5",
+                "verified": false
+              },
+              {
+                "type": "mAP50-95",
+                "value": 0.594,
+                "name": "mAP@0.5:0.95",
+                "verified": false
+              },
+              {
+                "type": "precision",
+                "value": 0.811,
+                "name": "Precision",
+                "verified": false
+              },
+              {
+                "type": "recall",
+                "value": 0.829,
+                "name": "Recall",
+                "verified": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "bec76c388065b20dda2dc92f8e3cd3d20c20b826",
+      "size": 1732
+    },
+    {
+      "rfilename": "BoxPR_curve.png",
+      "blobId": "be7609cb591e25252e4f1f23222da11faa6b64e3",
+      "size": 131417,
+      "lfs": {
+        "sha256": "207fffbdbd51307e30b35396337ec329ae8ae49aaeedd783d9bd9922ed25ea8f",
+        "size": 131417,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "b426a69eca4a31e33d34f46a2575b8d65d2404e6",
+      "size": 5673
+    },
+    {
+      "rfilename": "args.yaml",
+      "blobId": "a91823014073003cf6ccf04e631fa6140c57a294",
+      "size": 1769
+    },
+    {
+      "rfilename": "confusion_matrix.png",
+      "blobId": "7975f40e70203f25a28c8b935396466b2ce5f2b6",
+      "size": 119605,
+      "lfs": {
+        "sha256": "39de5cb96b5dbb06c6ea100f2be35943fff997c5421f1f5b0a86553799e34489",
+        "size": 119605,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "predict_video_sliced.py",
+      "blobId": "ae89c7870d78d689b00af6717b13e7a3af02fb0d",
+      "size": 15156
+    },
+    {
+      "rfilename": "requirements.txt",
+      "blobId": "b1a154437d5d827427adb7be55ef9a3016415f6b",
+      "size": 79
+    },
+    {
+      "rfilename": "results.png",
+      "blobId": "ed848b67e910cae930a81ae203efe9b987ab8b3b",
+      "size": 283541,
+      "lfs": {
+        "sha256": "cb3bfa2595e6a1f5c7502d2b09ef6dfef47c16602e599f216f09ac73239c2ad6",
+        "size": 283541,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "val_batch0_pred.jpg",
+      "blobId": "e8ee0ab4f3e2330b2ca5a52247ef9eb55aed8897",
+      "size": 373128,
+      "lfs": {
+        "sha256": "568e9db100d61c35b274db7d2d516016478d5a188cbb3afc96d4f2bca1b1faf2",
+        "size": 373128,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "weights/best.pt",
+      "blobId": "abebdd8f5aacc4f9ede79acfd29b75b9a0f3c4bc",
+      "size": 44020050,
+      "lfs": {
+        "sha256": "a06febf257bff40cf5f3814e77f5120e2a80ab91d3ff3a84370caf6fdf832740",
+        "size": 44020050,
+        "pointerSize": 133
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-08-03T08:58:53.000Z",
+  "usedStorage": 44927741
+}

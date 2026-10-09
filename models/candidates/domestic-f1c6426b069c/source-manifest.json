@@ -1,0 +1,16 @@
+{
+  "repo_id": "mfranzon/fire-smoke-yolov8",
+  "revision": "f1c6426b069c1849cbf13b1ef5d2a260289286db",
+  "filename": "fire_smoke_yolov8.pt",
+  "size_bytes": 6262051,
+  "sha256": "ac0a10257b2bc1f20c9d957f8adeeb61dd6140322fc19d0b4a116cb491776d16",
+  "training_provenance": "Publisher describes YOLOv8n, D-Fire + Domestic Fire and Smoke. Not independently audited.",
+  "source_url": "https://huggingface.co/mfranzon/fire-smoke-yolov8",
+  "license_declared_by_repository": "agpl-3.0",
+  "license_note": "Publisher declaration saved in model card and metadata; no separate LICENSE file in repository. Distribution obligations and training data rights require separate review.",
+  "downloaded_at_utc": "2026-10-09T11:22:39.328285+00:00",
+  "local_filename": "fire_smoke_yolov8.pt",
+  "verified_sha256": "ac0a10257b2bc1f20c9d957f8adeeb61dd6140322fc19d0b4a116cb491776d16",
+  "metadata_sha256": "2da72fc56c29440056e433c13fc3d0734e47839d0d5eade5413707b0b41d3bcd",
+  "model_card_sha256": "55076926308e70201f1e8dfbec438bc8edf89fb585c2bdbb31c96c5a59fd21da"
+}

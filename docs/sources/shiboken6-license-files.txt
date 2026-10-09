@@ -1,0 +1,1 @@
+D:\AI_competition\.venv-pytorch\lib\site-packages\shiboken6-6.9.3.dist-info\licenses\LicenseRef-Qt-Commercial.txt

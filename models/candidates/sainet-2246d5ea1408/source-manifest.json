@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/AlterMundi/sai-sainet-latest",
+  "revision": "2246d5ea1408a20ad6fa248eb35a3c5db404e32a",
+  "source_path": "model/SAINet_v11.1.pt",
+  "download_url": "https://media.githubusercontent.com/media/AlterMundi/sai-sainet-latest/2246d5ea1408a20ad6fa248eb35a3c5db404e32a/model/SAINet_v11.1.pt",
+  "git_blob_sha": "4caf84b0fbcad075b8e111d1085c2be0be0fd71d",
+  "sha256": "7c261a170554e3f7ffc549c4561bb1201e67c6b41418c0618535a82b0827ed50",
+  "bytes": 131517868,
+  "retrieved_at_utc": "2026-10-09T08:52:05.243238+00:00",
+  "license_declared_by_publisher": "AGPL-3.0",
+  "purpose": "Local candidate screening only; not adopted or published.",
+  "training_overlap_with_firesense": "Unverified; no external independence claim.",
+  "publisher_scope": "Outdoor early wildfire smoke; benchmark card reports smoke only; fire quality must be tested locally."
+}

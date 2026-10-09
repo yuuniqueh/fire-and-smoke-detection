@@ -1,0 +1,21 @@
+{
+  "smoothing_tau_s": 0.75,
+  "trend_window_s": 1.5,
+  "trend_deadband_pp_s": 0.3,
+  "coverage_full_scale": 0.2,
+  "duration_full_scale_s": 30.0,
+  "growth_full_scale_pp_s": 3.0,
+  "confidence_floor": 0.35,
+  "fire_base": 25.0,
+  "smoke_base": 15.0,
+  "coverage_weight": 25.0,
+  "duration_weight": 20.0,
+  "growth_weight": 20.0,
+  "confidence_weight": 10.0,
+  "medium_enter": 45.0,
+  "medium_exit": 38.0,
+  "high_enter": 70.0,
+  "high_exit": 62.0,
+  "upgrade_hold_s": 0.5,
+  "downgrade_hold_s": 1.0
+}

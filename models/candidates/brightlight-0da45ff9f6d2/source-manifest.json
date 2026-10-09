@@ -1,0 +1,17 @@
+{
+  "repo_id": "Nocluee100/Fire-and-Smoke-Detection-yolov8-v1",
+  "revision": "0da45ff9f6d2c52563972f6b5ce2312a7cd02726",
+  "filename": "best.pt",
+  "size_bytes": 6257194,
+  "git_blob_sha1": "5a3d415bd02de068ee1739a106d132a3ca43ed10",
+  "sha256": "8e23e1110a47dad1fb81b26984de1ca88e751cec0c070894f1a7bd4211c2d0b0",
+  "source_url": "https://github.com/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1",
+  "license_declared_by_publisher": "MIT for weights and scripts; dataset.txt declares CC BY 4.0",
+  "license_note": "Upstream obligations and training source/version need review before distribution. README and dataset.txt link different datasets.",
+  "downloaded_at_utc": "2026-10-09T13:04:05.586331+00:00",
+  "document_sha256": {
+    "LICENSE": "b6f27daaa28a1ef81aa1442862252b077ca61eb765ff8e43c3f73432a7ec4d85",
+    "README.md": "04bfa5c09224c6ae8ea2094138acab6c95f8ef2088c9b741b8fa61226c8e57c4",
+    "dataset.txt": "7e7f1dca6aad13172c20deca5bce64ca37e5224b334cdae93b6fcb614671fa24"
+  }
+}

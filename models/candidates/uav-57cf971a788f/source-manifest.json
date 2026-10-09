@@ -1,0 +1,16 @@
+{
+  "repo_id": "xiazh0219/yolo26m-UAV-fire-smoke-detection",
+  "revision": "57cf971a788fff62b8f3e5b1c3632e1214b8255c",
+  "filename": "weights/best.pt",
+  "size_bytes": 44020050,
+  "sha256": "a06febf257bff40cf5f3814e77f5120e2a80ab91d3ff3a84370caf6fdf832740",
+  "training_provenance": "Publisher describes YOLO26m, FASDD + own UAV forest data. Not independently audited.",
+  "source_url": "https://huggingface.co/xiazh0219/yolo26m-UAV-fire-smoke-detection",
+  "license_declared_by_repository": "agpl-3.0",
+  "license_note": "Publisher declaration saved in model card and metadata; no separate LICENSE file in repository. Distribution obligations and training data rights require separate review.",
+  "downloaded_at_utc": "2026-10-09T11:25:13.290257+00:00",
+  "local_filename": "weights/best.pt",
+  "verified_sha256": "a06febf257bff40cf5f3814e77f5120e2a80ab91d3ff3a84370caf6fdf832740",
+  "metadata_sha256": "99859297c883f59b0209882f5b41a281478d89aee19c6c0383e192d2a495515e",
+  "model_card_sha256": "d121107bc0882b260ba3761cdf78e9a0980509e2e27d01074093ed5c6b7e7c14"
+}

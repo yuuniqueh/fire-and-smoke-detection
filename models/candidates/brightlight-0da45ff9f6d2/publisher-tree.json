@@ -1,0 +1,227 @@
+{
+  "sha": "0da45ff9f6d2c52563972f6b5ce2312a7cd02726",
+  "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/trees/0da45ff9f6d2c52563972f6b5ce2312a7cd02726",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ac4c41e5aa9932103fd9d07d4ed40992e3c6de6",
+      "size": 1455,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/4ac4c41e5aa9932103fd9d07d4ed40992e3c6de6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fe2e24ca1fb2d146775c2fc49d55c48eb9c6e6e",
+      "size": 1884,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/3fe2e24ca1fb2d146775c2fc49d55c48eb9c6e6e"
+    },
+    {
+      "path": "dataset.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c8a0e203803772a3a30826879497d7e8731dd9b",
+      "size": 161,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/0c8a0e203803772a3a30826879497d7e8731dd9b"
+    },
+    {
+      "path": "demo.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c571bae36b333876d23e6cef017364fa5966b1e2",
+      "size": 9117660,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/c571bae36b333876d23e6cef017364fa5966b1e2"
+    },
+    {
+      "path": "demo.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffdd2c6ea6716263acd91d005f4c6b03e6777d8f",
+      "size": 18996725,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/ffdd2c6ea6716263acd91d005f4c6b03e6777d8f"
+    },
+    {
+      "path": "demo_py_script",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ce5d6f696786f887a4c739ff526f7680320141c",
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/trees/2ce5d6f696786f887a4c739ff526f7680320141c"
+    },
+    {
+      "path": "demo_py_script/best.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a3d415bd02de068ee1739a106d132a3ca43ed10",
+      "size": 6257194,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/5a3d415bd02de068ee1739a106d132a3ca43ed10"
+    },
+    {
+      "path": "demo_py_script/fire_detect_Mcam.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "187c619465ec7081321bf7723f4a0c42ebd59782",
+      "size": 8400,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/187c619465ec7081321bf7723f4a0c42ebd59782"
+    },
+    {
+      "path": "demo_py_script/fire_detect_vid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b303b1355f1f5719f831a38d910a4b87ad0f22a",
+      "size": 9990,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/3b303b1355f1f5719f831a38d910a4b87ad0f22a"
+    },
+    {
+      "path": "graphs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1629d64dabf82187e4cec11f18b14c9c106d0ec1",
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/trees/1629d64dabf82187e4cec11f18b14c9c106d0ec1"
+    },
+    {
+      "path": "graphs/BoxF1_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eee1511966c44b0a2e8b9aa16cec8857b35d9b78",
+      "size": 162821,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/eee1511966c44b0a2e8b9aa16cec8857b35d9b78"
+    },
+    {
+      "path": "graphs/BoxPR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae6f0b1b11b1367aa364189e519878244ce94b19",
+      "size": 132282,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/ae6f0b1b11b1367aa364189e519878244ce94b19"
+    },
+    {
+      "path": "graphs/BoxP_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9beecb2467c6b8ac5efe36e43a4314d5be175781",
+      "size": 133868,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/9beecb2467c6b8ac5efe36e43a4314d5be175781"
+    },
+    {
+      "path": "graphs/BoxR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "967f424b52a7eadad3887d8af6c16e3868fb6a29",
+      "size": 153680,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/967f424b52a7eadad3887d8af6c16e3868fb6a29"
+    },
+    {
+      "path": "graphs/confusion_matrix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bb4cc944ef3387a28f2a7aa3f040260165d55e8",
+      "size": 122502,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/3bb4cc944ef3387a28f2a7aa3f040260165d55e8"
+    },
+    {
+      "path": "graphs/confusion_matrix_normalized.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f73fd26eb596554941e40e8ef58d61a961b5082",
+      "size": 122483,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/5f73fd26eb596554941e40e8ef58d61a961b5082"
+    },
+    {
+      "path": "graphs/labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98f054cd1cdebbe5bac834ffda1268bb579b8c2f",
+      "size": 161186,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/98f054cd1cdebbe5bac834ffda1268bb579b8c2f"
+    },
+    {
+      "path": "graphs/results.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f468819681822babb68933a4033d33068adb847",
+      "size": 244487,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/6f468819681822babb68933a4033d33068adb847"
+    },
+    {
+      "path": "pred_vs_actual",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "972b8049ae5a75244521347b6cf9bf7f441a7daf",
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/trees/972b8049ae5a75244521347b6cf9bf7f441a7daf"
+    },
+    {
+      "path": "pred_vs_actual/val_batch0_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ea48313090f2742c230fb6fe7557de5a23f9b57",
+      "size": 572346,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/8ea48313090f2742c230fb6fe7557de5a23f9b57"
+    },
+    {
+      "path": "pred_vs_actual/val_batch0_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e9af455369200e6d9bef3e2e61febb94802a5d8",
+      "size": 597637,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/5e9af455369200e6d9bef3e2e61febb94802a5d8"
+    },
+    {
+      "path": "pred_vs_actual/val_batch1_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76e421d81b62650165487626cbaaa38e8f4ea83c",
+      "size": 605661,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/76e421d81b62650165487626cbaaa38e8f4ea83c"
+    },
+    {
+      "path": "pred_vs_actual/val_batch1_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63e15c5135b661611bde6b164162cfe9e1f66d09",
+      "size": 631204,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/63e15c5135b661611bde6b164162cfe9e1f66d09"
+    },
+    {
+      "path": "pred_vs_actual/val_batch2_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2871faa06b0dc2a6717f3fdebcea7cff8dac910",
+      "size": 576845,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/a2871faa06b0dc2a6717f3fdebcea7cff8dac910"
+    },
+    {
+      "path": "pred_vs_actual/val_batch2_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44980cb1141f39d959e10ff6490020cf64b085ab",
+      "size": 586814,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/44980cb1141f39d959e10ff6490020cf64b085ab"
+    },
+    {
+      "path": "weights",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8013a2906b68d9eb6694001703ff0cc675a8c6de",
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/trees/8013a2906b68d9eb6694001703ff0cc675a8c6de"
+    },
+    {
+      "path": "weights/best.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a3d415bd02de068ee1739a106d132a3ca43ed10",
+      "size": 6257194,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/5a3d415bd02de068ee1739a106d132a3ca43ed10"
+    },
+    {
+      "path": "weights/last.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9f233ef1d8d5ab8fb20bc8e75a6c548fad4e2b0",
+      "size": 6257194,
+      "url": "https://api.github.com/repos/Nocluee100/Fire-and-Smoke-Detection-yolov8-v1/git/blobs/d9f233ef1d8d5ab8fb20bc8e75a6c548fad4e2b0"
+    }
+  ],
+  "truncated": false
+}
