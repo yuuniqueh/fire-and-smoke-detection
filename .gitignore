@@ -27,6 +27,13 @@ tmp/
 .env
 .env.*
 !.env.example
+.ssh/
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.json
+*service-account*.json
 .codex/
 .agents/
 .idea/
