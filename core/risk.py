@@ -244,12 +244,13 @@ def draw_risk_panel(frame, snapshot):
     x = width + 18
     colors = {'NORMAL': (110, 230, 110), 'LOW': (110, 230, 210), 'MEDIUM': (40, 190, 255), 'HIGH': (70, 90, 255)}
     color = colors[snapshot['level']]
-    title = 'PENDING' if snapshot['status'] == 'awaiting_confirmation' else snapshot['level']
+    title = ('IDLE / NOT OBSERVED' if snapshot['status'] == 'not_observed' else
+             'PENDING' if snapshot['status'] == 'awaiting_confirmation' else snapshot['level'])
     def text(value, y, scale=0.48, tint=(220, 220, 220), thick=1):
         cv2.putText(canvas, value, (x, y), cv2.FONT_HERSHEY_SIMPLEX, scale, tint, thick)
     text('VISUAL RISK INDICATORS', 28, 0.59, (240, 240, 240), 2)
     text(title, 70, 0.88, color, 2)
-    score_text = f'Index: {snapshot["score"]:.1f} / 100' if snapshot['events'] else 'Index: not assessed' if title == 'PENDING' else 'No confirmed visual event'
+    score_text = f'Index: {snapshot["score"]:.1f} / 100' if snapshot['events'] else 'Index: not assessed' if title in ('PENDING', 'IDLE / NOT OBSERVED') else 'No confirmed visual event'
     text(score_text, 99, 0.58, color)
     text('Heuristic index; not fire probability', 124, 0.42, (170, 170, 170))
     if snapshot['events']:
@@ -263,9 +264,9 @@ def draw_risk_panel(frame, snapshot):
         growth = feature['growth_pp_per_s']
         text(f'Change: {growth:+.2f} pp/s' if growth is not None else 'Change: not available', 290)
         text('Score contributions', 325, 0.49, (240, 240, 240), 2)
-        labels = {'class_base': 'Confirmed class', 'box_coverage': 'Box coverage', 'positive_duration': 'Observation time', 'positive_growth': 'Coverage growth', 'model_confidence': 'Model confidence'}
+        labels = {'class_base': 'Confirmed class', 'box_coverage': 'Box coverage', 'positive_duration': 'Observation time', 'positive_growth': 'Coverage growth', 'model_confidence': 'Model confidence', 'scene_context': 'Scene context'}
         for index, (key, value) in enumerate(event['score_components'].items()):
-            text(f'{labels[key]}: +{value:.1f}', 350 + index * 24, 0.44)
+            text(f'{labels.get(key, key)}: {value:+.1f}', 350 + index * 24, 0.44)
         if event['pending_target']:
             text(f'Level change to {event["pending_target"]} pending', 486, 0.44, color)
         elif not event['fresh_evidence']:
@@ -273,5 +274,6 @@ def draw_risk_panel(frame, snapshot):
         else:
             text('Confirmed event + measured indicators', 486, 0.42)
     else:
-        text('Waiting for sustained visual evidence.' if title == 'PENDING' else 'No active confirmed event to assess.', 180, 0.43)
+        text('Frame not analyzed; waiting for next probe.' if snapshot['status'] == 'not_observed' else
+             'Waiting for sustained visual evidence.' if title == 'PENDING' else 'No active confirmed event to assess.', 180, 0.43)
     return canvas

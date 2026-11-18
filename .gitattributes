@@ -1,3 +1,0 @@
-# Frozen experiment SHA256 values depend on exact file bytes, including newlines.
-# Do not normalize line endings when committing or cloning this repository.
-* -text

@@ -1,0 +1,16 @@
+{
+  "repo_id": "SalahALHaismawi/yolov26-fire-detection",
+  "revision": "5397b43994c39c2ed4ef81a6996c6334e2b7a5fa",
+  "filename": "best.pt",
+  "size_bytes": 20301317,
+  "sha256": "52684ddffd4797f1bc5ff1bd2b72af3ec34eabf0c1646c37f518bb766b27b79f",
+  "publisher_license": "mit",
+  "publisher_architecture": "YOLO26-S",
+  "publisher_training": "8,939 Roboflow images, fire/smoke/other; dataset declared CC BY 4.0. Not independently audited.",
+  "source_url": "https://huggingface.co/SalahALHaismawi/yolov26-fire-detection",
+  "verified_sha256": "52684ddffd4797f1bc5ff1bd2b72af3ec34eabf0c1646c37f518bb766b27b79f",
+  "model_card_sha256": "f6a5e10c36c5f3ef7e48accc5a3431590650622b0c782aa72a0d51fb2bc08ac7",
+  "downloaded_at_utc": "2026-10-11T09:39:20.824704+00:00",
+  "usage_scope": "Local development comparison only; not bundled with the software.",
+  "license_note": "Publisher MIT/Apache declaration does not establish an exemption from upstream Ultralytics AGPL/enterprise conditions; provenance and distribution rights remain unverified."
+}

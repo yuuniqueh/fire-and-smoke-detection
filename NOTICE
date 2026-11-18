@@ -1,0 +1,12 @@
+FireGuard / 焰鉴
+Copyright (c) 2026 卡卡队
+
+The original application code in this distribution is licensed under
+AGPL-3.0-only. See LICENSE for the complete license text. You may modify and
+redistribute it under those terms. It is supplied without warranty.
+
+Third-party libraries, model weights, data, and source archives remain under
+their respective upstream licenses. This notice does not relicense them or
+claim their authorship. See third-party-notices, licenses and SOURCE_ACCESS.md.
+
+The software is a visual review aid. It is not a certified fire alarm system.

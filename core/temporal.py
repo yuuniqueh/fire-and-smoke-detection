@@ -96,7 +96,10 @@ class Track:
 
 
 class EventTracker:
-    def __init__(self, config=None):
+    def __init__(self, config=None, confirmation_profile='standard'):
+        from core.confirmation import validate_confirmation
+        validate_confirmation(confirmation_profile)
+        self.confirmation_profile = confirmation_profile
         self.config = config or TemporalConfig()
         self.tracks = {}
         self.closed_events = []
@@ -108,8 +111,8 @@ class EventTracker:
         self.alert_count = 0
         self.finished = False
 
-    def _evidence(self, track, timestamp):
-        left = max(track.started_at_s, timestamp - self.config.window_s)
+    def _evidence(self, track, timestamp, window_s=None):
+        left = max(track.started_at_s, timestamp - (self.config.window_s if window_s is None else window_s))
         points = list(track.evidence)
         positive = 0.0
         # An observation applies until the next sample (zero-order hold).
@@ -119,6 +122,25 @@ class EventTracker:
         span = max(0.0, timestamp - left)
         return {'observation_s': round(span, 6), 'positive_s': round(positive, 6),
                 'presence_ratio': round(positive / span, 6) if span else 0.0}
+
+    def _fast_evidence(self, track, timestamp):
+        from core.confirmation import FAST_POLICY
+        policy = FAST_POLICY
+        # Short custom evidence windows cannot support the full fast policy.
+        if self.confirmation_profile != 'fast' or self.config.window_s < policy.window_s:
+            return None
+        evidence = self._evidence(track, timestamp, policy.window_s)
+        left = timestamp - policy.window_s
+        points = list(track.evidence)
+        samples = [t for t, _ in points if t >= left - 1e-6]
+        gaps = [end - max(left, start) for (start, _), (end, _) in zip(points, points[1:]) if end > left]
+        if (evidence['observation_s'] + 1e-6 >= policy.window_s
+                and evidence['positive_s'] + 1e-6 >= policy.min_positive_s
+                and evidence['presence_ratio'] + 1e-6 >= policy.min_presence_ratio
+                and len(samples) >= policy.min_samples
+                and gaps and max(gaps) <= policy.max_sample_gap_s + 1e-6):
+            return {**evidence, 'confirmation_route': 'stable_fast', 'sample_count': len(samples)}
+        return None
 
     def _close(self, track, timestamp, reason):
         confirmed = track.confirmed_at_s is not None
@@ -192,9 +214,11 @@ class EventTracker:
             ready = (present and evidence['observation_s'] + 1e-6 >= self.config.min_observation_s
                      and evidence['positive_s'] + 1e-6 >= self.config.min_positive_s
                      and evidence['presence_ratio'] + 1e-6 >= self.config.min_presence_ratio)
-            if track.confirmed_at_s is None and ready:
+            fast_evidence = self._fast_evidence(track, timestamp) if present and track.confirmed_at_s is None else None
+            confirmation_evidence = evidence if ready else fast_evidence
+            if track.confirmed_at_s is None and (ready or fast_evidence is not None):
                 track.confirmed_at_s = timestamp
-                track.confirmation_evidence = evidence.copy()
+                track.confirmation_evidence = confirmation_evidence.copy()
                 self.confirmed_count += 1
                 suppressed = any(alert['label'] == track.label and iou(alert['box'], track.box) >= self.config.match_iou
                                  for alert in self.recent_alerts)
@@ -205,7 +229,7 @@ class EventTracker:
                 transitions.append({'type': 'event_confirmed', 'event_id': track.event_id,
                                     'label': track.label, 'timestamp_s': timestamp,
                                     'alert_emitted': track.alert_emitted, 'cooldown_suppressed': suppressed,
-                                    'evidence': evidence.copy()})
+                                    'evidence': confirmation_evidence.copy()})
             snapshots.append({
                 'event_id': track.event_id, 'label': track.label,
                 'state': 'confirmed' if track.confirmed_at_s is not None else 'pending',
@@ -229,6 +253,24 @@ class EventTracker:
                 'alerts_emitted': self.alert_count, 'cooldown_s': self.config.cooldown_s}
 
 
+def fit_overlay_text(text, width, scale, thickness=1):
+    """Keep display-only labels inside small source images."""
+    import cv2
+    width = max(1, width)
+    measured = cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, scale, thickness)[0][0]
+    if measured > width:
+        scale = max(0.35, scale * width / measured * 0.98)
+    if cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, scale, thickness)[0][0] > width:
+        original = text
+        for length in range(len(original), -1, -1):
+            text = original[:length] + '...'
+            if cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, scale, thickness)[0][0] <= width:
+                break
+        else:
+            text = ''
+    return text, scale
+
+
 def draw_event_status(frame, snapshot):
     """OpenCV-only overlay; confirmed describes sustained visual evidence."""
     import cv2
@@ -238,9 +280,12 @@ def draw_event_status(frame, snapshot):
     cv2.rectangle(frame, (0, 0), (width, 62), (22, 22, 22), -1)
     title = f'CONFIRMED EVENTS: {len(confirmed)}' if confirmed else ('PENDING: verifying persistence' if tracks else 'NO ACTIVE EVENT')
     color = (70, 90, 255) if confirmed else (60, 215, 255) if tracks else (110, 230, 110)
-    cv2.putText(frame, title, (12, 25), cv2.FONT_HERSHEY_SIMPLEX, 0.65, color, 2)
-    cv2.putText(frame, f'Video time: {snapshot["timestamp_s"]:.2f}s | sustained visual evidence',
-                (12, 49), cv2.FONT_HERSHEY_SIMPLEX, 0.43, (220, 220, 220), 1)
+    title, title_scale = fit_overlay_text(title, width - 24, 0.65, 2)
+    cv2.putText(frame, title, (12, 25), cv2.FONT_HERSHEY_SIMPLEX, title_scale, color, 2)
+    observation, observation_scale = fit_overlay_text(
+        f'Observed {snapshot["timestamp_s"]:.2f}s | visual evidence', width - 24, 0.43)
+    cv2.putText(frame, observation, (12, 49), cv2.FONT_HERSHEY_SIMPLEX,
+                observation_scale, (220, 220, 220), 1)
     for track in tracks:
         x1, y1, x2, y2 = [round(v * scale) for v, scale in zip(track['bbox_normalized'], (width, height, width, height))]
         color = (70, 90, 255) if track['state'] == 'confirmed' else (60, 215, 255)
@@ -248,10 +293,11 @@ def draw_event_status(frame, snapshot):
             color = (0, 150, 255)
         cv2.rectangle(frame, (x1, y1), (x2, y2), color, 2)
         text = f'{track["label"]} #{track["event_id"]} {track["state"]} | presence {track["presence_ratio"]:.0%}'
-        (text_width, text_height), baseline = cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, 0.43, 1)
+        text, text_scale = fit_overlay_text(text, width - 6, 0.43)
+        (text_width, text_height), baseline = cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, text_scale, 1)
         text_x = max(0, min(x1, width - text_width - 6))
         text_y = min(height - baseline - 3, y2 + 18)
         cv2.rectangle(frame, (text_x, text_y - text_height - 3),
                       (min(width - 1, text_x + text_width + 4), text_y + baseline + 2), (22, 22, 22), -1)
-        cv2.putText(frame, text, (text_x + 2, text_y), cv2.FONT_HERSHEY_SIMPLEX, 0.43, color, 1)
+        cv2.putText(frame, text, (text_x + 2, text_y), cv2.FONT_HERSHEY_SIMPLEX, text_scale, color, 1)
     return frame

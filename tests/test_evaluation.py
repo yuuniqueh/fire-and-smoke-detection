@@ -36,6 +36,9 @@ class EvaluationTests(unittest.TestCase):
         self.assertEqual(result['smoke'], {'excluded': True, 'reason': 'uncertain'})
         with self.assertRaises(ValueError):
             evaluate_video(row, detections[:-1], temporal)
+        detections[1]['observed'] = False
+        with self.assertRaisesRegex(ValueError, 'unobserved'):
+            evaluate_video(row, detections, temporal)
 
 
 if __name__ == '__main__':

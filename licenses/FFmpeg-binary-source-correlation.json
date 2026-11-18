@@ -1,0 +1,73 @@
+{
+  "opencv_version": "4.11.0.86",
+  "opencv_ffmpeg_binary_commit": "d63d7c154c57242bf2283be61166be2bd30ec47e",
+  "opencv_wrapper_commit": "09892c9d1706f40342bda0bc404580f63492d9f8",
+  "source_branch": "ffmpeg/4.x_20241226_src",
+  "dll_md5": "a8c3560c8f20e1ae465bef81580fa92c",
+  "expected_dll_md5": "a8c3560c8f20e1ae465bef81580fa92c",
+  "dll_git_blob_sha1": "43d44b1f9bd905d40c5ab282566397ce99c6194d",
+  "expected_git_blob_sha1": "43d44b1f9bd905d40c5ab282566397ce99c6194d",
+  "source_archives": [
+    {
+      "component": "opencv-ffmpeg",
+      "version": "ffmpeg/4.x_20241226_src",
+      "url": "https://raw.githubusercontent.com/opencv/opencv_3rdparty/ffmpeg/4.x_20241226_src/sources/opencv_ffmpeg.tar.xz",
+      "file": "opencv-ffmpeg/opencv_ffmpeg.tar.xz",
+      "verification": "Official release-specific source branch; local SHA256 recorded after retrieval; API unavailable.",
+      "ok": true,
+      "bytes": 16976,
+      "sha256": "84f6f5cfb71b6729cd19669acd1d8f399f706cdc81d5fddaedc06b24de3559b9"
+    },
+    {
+      "component": "opencv-ffmpeg",
+      "version": "ffmpeg/4.x_20241226_src",
+      "url": "https://raw.githubusercontent.com/opencv/opencv_3rdparty/ffmpeg/4.x_20241226_src/sources/opencv/opencv-videoio-ffmpeg.tar.xz",
+      "file": "opencv-ffmpeg/opencv/opencv-videoio-ffmpeg.tar.xz",
+      "verification": "Official release-specific source branch; local SHA256 recorded after retrieval; API unavailable.",
+      "ok": true,
+      "bytes": 35196,
+      "sha256": "04434d8dc49f2baac9c9e3e04e0660c6cdc27fa5a8619bc29de761f5bee8d961"
+    },
+    {
+      "component": "opencv-ffmpeg",
+      "version": "ffmpeg/4.x_20241226_src",
+      "url": "https://raw.githubusercontent.com/opencv/opencv_3rdparty/ffmpeg/4.x_20241226_src/sources/build/ffmpeg/ffmpeg-src-n4.4.5.tar.xz",
+      "file": "opencv-ffmpeg/build/ffmpeg/ffmpeg-src-n4.4.5.tar.xz",
+      "verification": "Official release-specific source branch; local SHA256 recorded after retrieval; API unavailable.",
+      "ok": true,
+      "bytes": 9394088,
+      "sha256": "ed9e77cc24570d66881b058af06e7e86586a9c960d6f6712ce086fce881888ed"
+    },
+    {
+      "component": "opencv-ffmpeg",
+      "version": "ffmpeg/4.x_20241226_src",
+      "url": "https://raw.githubusercontent.com/opencv/opencv_3rdparty/ffmpeg/4.x_20241226_src/sources/build/libvpx/libvpx-src-v1.15.0.tar.xz",
+      "file": "opencv-ffmpeg/build/libvpx/libvpx-src-v1.15.0.tar.xz",
+      "verification": "Official release-specific source branch; local SHA256 recorded after retrieval; API unavailable.",
+      "ok": true,
+      "bytes": 4389028,
+      "sha256": "6c32d367e9330c43850e371af6aa2018eb1045b987fc6253b3d2d90cf16a66c2"
+    },
+    {
+      "component": "opencv-ffmpeg",
+      "version": "ffmpeg/4.x_20241226_src",
+      "url": "https://raw.githubusercontent.com/opencv/opencv_3rdparty/ffmpeg/4.x_20241226_src/sources/build/openh264/openh264-api-headers-v1.8.0.tar.xz",
+      "file": "opencv-ffmpeg/build/openh264/openh264-api-headers-v1.8.0.tar.xz",
+      "verification": "Official release-specific source branch; local SHA256 recorded after retrieval; API unavailable.",
+      "ok": true,
+      "bytes": 15432,
+      "sha256": "90c9333fe8dd9ce8f6585b7a2dae595276338f42b2850dbe2a75218e2957d1db"
+    },
+    {
+      "component": "opencv-ffmpeg",
+      "version": "ffmpeg/4.x_20241226_src",
+      "url": "https://raw.githubusercontent.com/opencv/opencv_3rdparty/ffmpeg/4.x_20241226_src/sources/build/aom/aom-src-v3.11.0.tar.xz",
+      "file": "opencv-ffmpeg/build/aom/aom-src-v3.11.0.tar.xz",
+      "verification": "Official release-specific source branch; local SHA256 recorded after retrieval; API unavailable.",
+      "ok": true,
+      "bytes": 3849276,
+      "sha256": "a11e9d5c61a6b0aa415cf9de16c6c18c41b7dbe1b5beb91631f54a13a79ff0c2"
+    }
+  ],
+  "new_source_patches": "none; unmodified publisher archives supplied"
+}

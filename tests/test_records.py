@@ -5,7 +5,7 @@ import tempfile
 import unittest
 import zipfile
 
-from core.records import export_run, list_runs, load_curve, load_run
+from core.records import append_feedback, export_run, list_runs, load_curve, load_run
 
 
 class RecordTests(unittest.TestCase):
@@ -61,6 +61,29 @@ class RecordTests(unittest.TestCase):
         self.assertEqual(load_curve(self.run, window_s=120), [(130.0, 70.0)])
         points = load_curve(self.run, window_s=200)
         self.assertEqual(points, [(0.0, None), (0.1, 40.0), (1.0, None), (130.0, 70.0)])
+
+    def test_notifications_feedback_and_trend_are_portable_and_legacy_safe(self):
+        legacy = load_run(self.run)
+        self.assertEqual(legacy['notifications'], [])
+        self.assertIsNone(legacy['trend'])
+        notice = {'notification_id': 1, 'event_id': 9, 'level': 'HIGH'}
+        (self.run / 'alerts.jsonl').write_text(json.dumps(notice) + '\n', encoding='utf-8')
+        (self.run / 'trend-latest.json').write_text(json.dumps({'events': [{'event_id': 9}]}), encoding='utf-8')
+        append_feedback(self.run, notice, 'acknowledged')
+        record = load_run(self.run)
+        self.assertEqual(record['feedback'][0]['action'], 'acknowledged')
+        self.assertEqual(record['notifications'], [notice])
+        self.assertEqual(record['trend']['events'][0]['event_id'], 9)
+        target = self.root / 'product.zip'
+        export_run(self.run, target)
+        with zipfile.ZipFile(target) as archive:
+            self.assertIn('alerts.jsonl', archive.namelist())
+            self.assertIn('feedback.jsonl', archive.namelist())
+            self.assertIn('trend-latest.json', archive.namelist())
+        with self.assertRaises(ValueError):
+            append_feedback(self.run, {**notice, 'event_id': 10}, 'false_positive')
+        with self.assertRaises(ValueError):
+            append_feedback(self.run, notice, 'retrain')
 
 
 if __name__ == '__main__':

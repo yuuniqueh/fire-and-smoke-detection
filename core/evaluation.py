@@ -60,6 +60,8 @@ def evaluate_video(row, detection_packets, temporal_packets, gap_s=1.0):
     flags = {mode: {label: [] for label in ('fire', 'smoke')} for mode in ('single_frame', 'temporal')}
     emitted = {'fire': 0, 'smoke': 0}
     for index, (detected, temporal) in enumerate(zip(detection_packets, temporal_packets)):
+        if detected.get('observed', True) is False or temporal.get('observed', True) is False:
+            raise ValueError('Sparse monitoring contains unobserved frames; this every-frame evaluator cannot treat them as negatives.')
         if detected['frame_index'] != index or abs(detected['timestamp_s'] - index / fps) > 1e-5 or abs(temporal['timestamp_s'] - index / fps) > 1e-5:
             raise ValueError('Log frame order or timestamps inconsistent with annotations.')
         for label in ('fire', 'smoke'):

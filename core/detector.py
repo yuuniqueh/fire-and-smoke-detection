@@ -17,9 +17,9 @@ class Detector:
         if set(self.model.names.values()) != {'fire', 'smoke'}:
             raise ValueError(f'权重类别不符合预期：{self.model.names}')
 
-    def predict(self, frame, *, annotate=True):
+    def predict(self, frame, *, annotate=True, imgsz=640):
         result = self.model.predict(frame, device=self.device, conf=self.confidence,
-                                    imgsz=640, verbose=False)[0]
+                                    imgsz=imgsz, verbose=False)[0]
         detections = []
         for row in result.boxes.data.cpu().tolist():
             x1, y1, x2, y2, confidence, class_id = row

@@ -1,0 +1,12 @@
+[
+  {
+    "path": "licenses/Microsoft-VC-runtime-LICENSE.RTF",
+    "source": "Conda vc14_runtime 14.44.35208 h4927774_10 redistributable license files",
+    "sha256": "8099dc3cf9502c335da829e5c755948a12e3e6de490eb492a99deb673d883d8b"
+  },
+  {
+    "path": "licenses/Microsoft-VC-runtime-LICENSE.TXT",
+    "source": "Conda vc14_runtime 14.44.35208 h4927774_10 redistributable license files",
+    "sha256": "ed29042f5034e8fa9eff7c13ae07144d7ba68d4f09f50180fd9eee2c41843159"
+  }
+]
